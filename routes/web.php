@@ -28,3 +28,8 @@ Route::get('/user', function() {
 Route::get('/admin', function() {
     return view('admin');
 });
+
+
+Route::get('/admin2', function() {
+    return view('admin');
+});
